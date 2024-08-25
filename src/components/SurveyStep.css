@@ -1,0 +1,81 @@
+.survey-step {
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .survey-step h2 {
+    font-size: 24px;
+    color: #1a2c65;
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  
+  .option input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+  }
+  
+  .option:hover {
+    border-color: #ff5a5f;
+  }
+  
+  .option.selected {
+    border-color: #1a2c65;
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: left;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .next-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff5a5f;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-button {
+    background-color: transparent;
+    color: #1a2c65;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
